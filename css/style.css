@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x800') center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.testimonials {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+.faq {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
